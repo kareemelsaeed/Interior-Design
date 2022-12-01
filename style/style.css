@@ -1,0 +1,66 @@
+.close{
+    border: none;
+    background-color:  rgb(255, 68, 0);
+}
+
+.sideBar{
+    color: white;
+}
+
+.sideBar:hover{
+    color: black;
+    background-color: white;
+}
+
+.emity{
+    border: 5px solid rgb(255, 68, 0);
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.cardimg{
+    position: relative;
+}
+
+.cardimg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.signbtn1{
+    border: none; 
+    background-color: white;
+}
+
+.signbtn1:hover{
+    color: white;
+    background-color: black;
+}
+
+.signbtn2{
+    border: none; 
+    background-color: rgb(255, 68, 0);
+}
+
+.signbtn2:hover{
+    color: white;
+    background-color: black;
+}
+
+.sendBtn{
+    background-color: rgb(255, 68, 0);
+    border: none;
+    color: white;
+    height: 50px;
+}
+
+.sendBtn:hover{
+        color: black;
+        background-color: lightgray;
+}
